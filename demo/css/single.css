@@ -11,7 +11,15 @@
     width: 54%;
     height: 54%;
 }
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 500px) {
+    [data-immanuel-track="planets"] {
+        top: 22%;
+        left: 22%;
+        width: 56%;
+        height: 56%;
+    }
+}
+@media only screen and (min-width: 800px) {
     [data-immanuel-track="planets"] {
         top: 21%;
         left: 21%;

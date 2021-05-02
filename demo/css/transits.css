@@ -1,8 +1,24 @@
 [data-immanuel-track="transit-planets"] {
-    top: 7%;
-    left: 7%;
-    width: 86%;
-    height: 86%;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+@media only screen and (min-width: 480px) {
+    [data-immanuel-track="transit-planets"] {
+        top: 6%;
+        left: 6%;
+        width: 88%;
+        height: 88%;
+    }
+}
+@media only screen and (min-width: 800px) {
+    [data-immanuel-track="transit-planets"] {
+        top: 7%;
+        left: 7%;
+        width: 86%;
+        height: 86%;
+    }
 }
 
 [data-immanuel-track="transit-planets"] [data-immanuel-planet],
